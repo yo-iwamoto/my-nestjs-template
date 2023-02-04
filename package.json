@@ -1,7 +1,8 @@
 {
   "name": "my-nestjs-template",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "prebuild": "rimraf dist",
     "build": "nest build",
     "dev": "NODE_ENV=development nest start --watch",
